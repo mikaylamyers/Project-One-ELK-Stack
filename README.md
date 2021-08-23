@@ -96,7 +96,7 @@ In order to use the playbook, one will need to have an Ansible control node alre
   - Update the file to include the .cfg file configurations and the playbook configuration
   - Run the playbook, and navigate to the Kibana website through the ELK server to check that the installation worked as expected.
 
-### FAQ
+### Using the Playbook Continued
 1. Which file is the playbook? Where do you copy it?
 
 The playbook file would be the YAML file that one creates. It is copied into the /etc/ansible directiory from the container.
