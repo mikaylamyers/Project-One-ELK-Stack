@@ -1,5 +1,5 @@
 # Automated ELK Stack Deployment
-The files in this repository were used to configure the network dipicted below.
+The files in this repository were used to configure the network depicted below.
 
 ![AzureCloudDiagramA](https://user-images.githubusercontent.com/77220840/130520416-5d766be8-1697-48f3-a345-6b4588de553f.png)
 
