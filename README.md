@@ -19,11 +19,11 @@ This document contains the following details:
 
 The main puropse of this network is to expose a load-balanced and monitored instance of DVWA, the D*amn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly available and reliable, in addition to restricing traffic to the network.
+Load balancing ensures that the application will be highly available and reliable, in addition to restricting traffic to the network.
 
 - Load balancers protect the system from Denial-Of-Service attacks. Because it evenly distributes incoming web traffic and data, it helps prevent and mitigate the potential of a server overload.
 
-- The advantage of a jumpbox is having the ability to access different web servers or networks while maintaing a controlled and secure connection. It acts as a configured gateway between machines.
+- The advantage of a jumpbox is having the ability to access different web servers or networks while maintaining a controlled and secure connection. It acts as a configured gateway between machines.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to their file systems and network as well as watch system metrics, such as CPU usage; attempted SSH logins; 'sudo' escalation failures; etc.
 
@@ -56,7 +56,7 @@ A summary of the access policies in place can be found in the table below:
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK Server machine. No configuration was performed manually, which is advantageous because of the accessibility and ease of utilising Ansible. Ansible provides the installations and all of the required files. Being able to go to the site to copy the modules as formulate the playbook makes it a quick and cost-effective task. Doing it manually would be both time consuming and tedius, so the accessibility to Ansible is beneficial to all.
+Ansible was used to automate configuration of the ELK Server machine. No configuration was performed manually, which is advantageous because of the accessibility and ease of utilising Ansible. Ansible provides the installations and all of the required files. Being able to go to the site to copy the modules to formulate the playbook makes it a quick and cost-effective task. Doing it manually would be both time consuming and tedius, so the accessibility to Ansible is beneficial to all.
 
 The playbook implements the following tasks:
   - First, it configures the ELK machine with Docker
@@ -88,12 +88,12 @@ These beats allow us to collect the following information from each machine:
   - Filebeat: Collects data, such as log files, then monitors and sends it to the specified output.
   - Packetbeat: Collects packets on the network and traces all of the activity on that server.
   - Metricbeat: Collects metric data from the specified servers and monitors then sends it to the output. 
-    - For example, metricbeat might monitor that a spike amount of users have been attempting to log into the system, and it will detect that data and record it.
+    - For example, metricbeat might monitor a spike amount of users that have been attempting to log into the system. It will then gather and record that data.
 
 ### Using the Playbook
 In order to use the playbook, one will need to have an Ansible control node already configured. Assuming they have such a control node provisioned:
-  - SSH into the control mode
-  - Update the file to include the .cfg file configurations and the playbook configuration
+  - SSH into the control mode.
+  - Update the file to include the .cfg file configurations and the playbook configuration.
   - Run the playbook, and navigate to the Kibana website through the ELK server to check that the installation worked as expected.
 
 ### Using the Playbook Continued
