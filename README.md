@@ -56,7 +56,7 @@ A summary of the access policies in place can be found in the table below:
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK Server machine. No configuration was performed manually, which is advantageous because of the accessibility and ease of utilising Ansible. Ansible provides the installations and all of the required files. Being able to go to the site to copy the modules to formulate the playbook makes it a quick and cost-effective task. Doing it manually would be both time consuming and tedius, so the accessibility to Ansible is beneficial to all.
+Ansible was used to automate configuration of the ELK Server machine. No configuration was performed manually, which is advantageous because of the accessibility and ease of utilizing Ansible. Ansible provides the installations and all of the required files. Being able to go to the site to copy the modules to formulate the playbook makes it a quick and cost-effective task. Doing it manually would be both time consuming and tedius, so the accessibility to Ansible is beneficial to all.
 
 The playbook implements the following tasks:
   - First, it configures the ELK machine with Docker
